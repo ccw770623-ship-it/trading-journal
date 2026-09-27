@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  
+  <rect width="512" height="512" fill="#204B57"/>
+  <!-- candles -->
+  <line x1="150" y1="200" x2="150" y2="372" stroke="#48A9A6" stroke-width="14" stroke-linecap="round"/>
+  <rect x="118" y="236" width="64" height="104" rx="16" fill="#48A9A6"/>
+  <line x1="256" y1="150" x2="256" y2="318" stroke="#C1666B" stroke-width="14" stroke-linecap="round"/>
+  <rect x="224" y="182" width="64" height="100" rx="16" fill="#C1666B"/>
+  <line x1="362" y1="110" x2="362" y2="262" stroke="#48A9A6" stroke-width="14" stroke-linecap="round"/>
+  <rect x="330" y="138" width="64" height="96" rx="16" fill="#48A9A6"/>
+  <!-- trend line -->
+  <path d="M104 402 L408 300" stroke="#F7ECE1" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="408" cy="300" r="20" fill="#F7ECE1"/>
+</svg>

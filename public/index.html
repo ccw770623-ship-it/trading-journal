@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>交易日誌</title>
+<meta name="description" content="記錄型態、趨勢線、道氏理論、葛蘭碧八大法則與 20／100 均線交易的日誌">
+<meta name="theme-color" content="#F7ECE1" id="themeColor">
+<meta name="application-name" content="交易日誌">
+<meta name="apple-mobile-web-app-title" content="交易日誌">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<header class="top"><div class="topin">
+  <button class="brand" data-go="home" aria-label="回到總覽"><img src="/icons/icon-192.png" alt=""><span>交易日誌</span></button>
+  <nav class="tabs" id="tabs">
+    <button data-view="home" aria-current="page">總覽</button>
+    <button data-view="list">交易</button>
+    <button data-view="form" class="add">＋ 新增</button>
+    <button data-view="stats">分析</button>
+    <button data-view="settings">設定</button>
+  </nav>
+</div></header>
+<div class="sync" id="sync">連線中</div>
+<main id="app"></main>
+<div class="sheet" id="sheet" hidden><div class="inner" id="sheetInner"></div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<noscript><p style="padding:20px">交易日誌需要啟用 JavaScript 才能使用。</p></noscript>
+<script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

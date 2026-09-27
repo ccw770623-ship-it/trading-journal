@@ -1,0 +1,16 @@
+{
+  "name": "trading-journal",
+  "version": "1.1.0",
+  "private": true,
+  "description": "交易日誌：純前端 PWA，Firebase 雲端同步（未設定時使用瀏覽器 localStorage）",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "build": "node scripts/check.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}
